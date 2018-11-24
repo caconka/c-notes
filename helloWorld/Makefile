@@ -1,6 +1,7 @@
 OBJS = main.o
 CFLAGS = -g -Wall
 
+# Para indicar que el objetivo principal es program, sino coge el primero
 all: program
 
 program: $(OBJS)
