@@ -11,3 +11,5 @@ memory: $(OBJS)
 
 clean:
 	rm -f memory $(OBJS)
+
+.PONY: clean

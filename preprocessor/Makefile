@@ -11,3 +11,5 @@ preprocessor: $(OBJS)
 
 clean:
 	rm -f preprocessor $(OBJS)
+
+.PONY: clean

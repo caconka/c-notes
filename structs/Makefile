@@ -11,3 +11,5 @@ structs: $(OBJS)
 
 clean:
 	rm -f structs $(OBJS)
+
+.PONY: clean

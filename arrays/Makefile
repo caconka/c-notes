@@ -11,3 +11,5 @@ arrays: $(OBJS)
 
 clean:
 	rm -f arrays $(OBJS)
+
+.PONY: clean

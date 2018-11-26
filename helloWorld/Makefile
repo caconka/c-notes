@@ -21,3 +21,7 @@ clean:
 	# Por cada objetivo la consola imprimirá el comando que está ejecutando, si
 	# queremos que no se imprima le podemos poner un @ delante del comando
 	# Las sentencias que empiezan por @ harán lo mismo pero sin imprimirlo
+
+# Si clean fuera un archivo en el directorio, con esto le indicamos a make que
+# clean no está asociado con ningún archivo
+.PONY: clean

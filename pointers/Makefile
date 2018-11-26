@@ -11,3 +11,5 @@ pointers: $(OBJS)
 
 clean:
 	rm -f pointers $(OBJS)
+
+.PONY: clean
