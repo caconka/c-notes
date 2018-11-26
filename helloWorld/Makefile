@@ -16,7 +16,8 @@ program: $(OBJS)
 	# RESULT -> gcc -g -Wall -c main.c -o main.o
 
 clean:
+	@echo "Cleaning..."
 	rm -f program $(OBJS)
 	# Por cada objetivo la consola imprimirá el comando que está ejecutando, si
 	# queremos que no se imprima le podemos poner un @ delante del comando
-	# @rm -f program $(OBJS) -> hará lo mismo pero sin imprimirlo por consola
+	# Las sentencias que empiezan por @ harán lo mismo pero sin imprimirlo
